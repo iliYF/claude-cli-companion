@@ -1,0 +1,15 @@
+gui:
+  # 设置主题色
+  theme:
+    activeBorderColor:
+      - green
+      - bold
+    inactiveBorderColor:
+      - white
+  # 显示分支图
+  showBranchGraph: true
+
+git:
+  # 在界面下方显示命令
+  showCommandLog: true
+  
