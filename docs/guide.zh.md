@@ -408,7 +408,8 @@ Claude：两点都说得对。路由索引我来补上……
 ```bash
 claude mcp add --transport http \
   git-claude-flow \
-  https://git-claude-flow.your-domain.com/mcp
+  https://git-claude-flow.vercel.app/mcp \
+  --scope user
 ```
 
 与 Lazygit 配合使用：Claude 通过 git-claude-flow 管理分支和提交策略，你在 Lazygit 里实时看到操作结果并做最终审核。
